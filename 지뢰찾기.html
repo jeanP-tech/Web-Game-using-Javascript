@@ -8,15 +8,21 @@
         border-collapse: collapse;
       }
       td {
-        border: 1px solid black;
+        border: 1px solid #bbb;
         text-align: center;
         line-height: 20px;
         width: 20px;
         height: 20px;
-        background: #444;
+        background: #222;
       }
       td.opened{
         background: white;
+      }
+      td.flag{
+        background: red;
+      }
+      td.question{
+        background: orange;
       }
     </style>
   </head>
@@ -33,6 +39,7 @@
       </thead>
       <tbody></tbody>
     </table>
+    <div id="result"></div>
     <script src="지뢰찾기.js"></script>
   </body>
 </html>
